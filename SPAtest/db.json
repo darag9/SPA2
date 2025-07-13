@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "biblio@example.com",
+      "password": "password123",
+      "role": "bibliotecario"
+    },
+    {
+      "id": 2,
+      "email": "visitante@example.com",
+      "password": "password123",
+      "role": "visitante"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Cien Años de Soledad",
+      "author": "Gabriel García Márquez",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "El Señor de los Anillos",
+      "author": "J.R.R. Tolkien",
+      "available": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "bookId": 2,
+      "userId": 2,
+      "date": "2025-07-15"
+    }
+  ]
+}
